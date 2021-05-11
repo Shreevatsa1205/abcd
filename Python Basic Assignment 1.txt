@@ -4,7 +4,7 @@
 # In[1]:
 #1. Write a Python program to print "Hello Python"?
 
-Answer:
+#Answer:
 
 # This program prints Hello Python
 print('Hello Python')
@@ -14,7 +14,7 @@ print('Hello Python')
 # In[2]:
 #2. Write a Python program to do arithmetical operations addition and division.?
 
-Answer:
+#Answer:
 
 #Find the sum of n numbers given by the user
 def add(*args):
@@ -38,7 +38,7 @@ print(b)
 # In[3]:
 #3. Write a Python program to find the area of a triangle?
 
-Answer:
+#Answer:
 
 #to find the area of a triangle
 def areaOfTriangle(b,h):
@@ -53,7 +53,7 @@ areaOfTriangle(b,h)
 # In[4]:
 #4. Write a Python program to swap two variables?
 
-Answer:
+#Answer:
 
 #to swap two variables
 
@@ -74,7 +74,7 @@ print("num2 after swapping: ", num2)
 # In[5]:
 #5. Write a Python program to generate a random number?
 
-Answer:
+#Answer:
 
 #to generate a random number
 import random
