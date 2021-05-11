@@ -1,0 +1,95 @@
+#!/usr/bin/env python
+# coding: utf-8
+
+# In[1]:
+#1. Write a Python program to print "Hello Python"?
+
+Answer:
+
+# This program prints Hello Python
+print('Hello Python')
+
+
+
+# In[2]:
+#2. Write a Python program to do arithmetical operations addition and division.?
+
+Answer:
+
+#Find the sum of n numbers given by the user
+def add(*args):
+    n = list(map(float, input().split()))
+    return sum(n)
+
+#Find the division of 2 numbers
+def division(c,d):
+    if d != 0:
+        return c/d
+    else:
+        print("Enter a nonzero number ")
+        
+a = add()
+b = division(8,4)
+
+print(a)
+print(b)
+
+
+# In[3]:
+#3. Write a Python program to find the area of a triangle?
+
+Answer:
+
+#to find the area of a triangle
+def areaOfTriangle(b,h):
+    return (0.5*b*h)
+
+b = float(input("Enter the length of base of a triangle: "))
+h = float(input("Enter the height of the triangle: "))
+
+areaOfTriangle(b,h)
+
+
+# In[4]:
+#4. Write a Python program to swap two variables?
+
+Answer:
+
+#to swap two variables
+
+num1 = float(input("Enter num1: "))
+num2 = float(input("Enter num2: "))
+
+print("num1 before swapping: ", num1)
+print("num2 before swapping: ", num2)
+
+a = num1
+num1 = num2
+num2 = a
+
+print("num1 after swapping: ", num1)
+print("num2 after swapping: ", num2)
+
+
+# In[5]:
+#5. Write a Python program to generate a random number?
+
+Answer:
+
+#to generate a random number
+import random
+
+#If user needs any random number between 0 to 1
+x = random.random()
+print(x)
+
+#If user needs any random number in a given range
+import random
+y = random.randint(int(input("Enter minimum value: ")), int(input("Enter maximum value: ")))
+print(y)
+
+
+
+
+
+
